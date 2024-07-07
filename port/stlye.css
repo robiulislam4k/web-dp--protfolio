@@ -68,6 +68,7 @@ nav ul{
     font-weight: 400;
     font-size: 45px;
     color: #474747;
+    align-items: center;
 }
 .solve{
     font-size: 18px;
@@ -163,7 +164,32 @@ main{
 }
 /* form */
  
-.footer-colume{
-    padding: 130px 120px;
+footer{
+    padding: 130px 230px;
     display: flex;
+    gap: 100px;
 }
+/* resume exs */
+.resume container{
+    display: flex;
+    gap: 20px;
+}
+.experience description{
+    color: rgba(117, 117, 117, 1);
+}
+.experience description{
+    color:  rgba(117, 117, 117, 1);
+    font-size: 20px;
+}
+.ok{
+    color: #FD6E0A;
+    padding: 15px;
+    font-weight: 700;
+    background-color: beige;
+}
+.footer-column{
+    margin-top: 30px;
+    padding: 20px;
+    margin: 100px;
+}
+/* extra */
